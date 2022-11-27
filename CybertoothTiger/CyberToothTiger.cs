@@ -1,23 +1,40 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
+using System.Diagnostics;
+using System.Text.RegularExpressions;
 using OpenCvSharp;
 
 namespace CybertoothTiger
 {
-    internal class CyberToothTiger
+    public class CyberToothTiger
     {
-        using var src = new Mat("lenna.png", ImreadModes.Grayscale);
-        using var dst = new Mat();
+        public void run() {
 
-    Cv2.Canny(src, dst, 50, 200);
-        using (new Window("src image", src)) 
-        using (new Window("dst image", dst)) 
-        {
-            Cv2.WaitKey();
+            VideoCapture capture = new VideoCapture(0, VideoCaptureAPIs.DSHOW);
+
+            if (!capture.IsOpened()){
+            
+            }
+            capture.FrameWidth = 1920;
+            capture.FrameHeight = 1280;
+            capture.AutoFocus = true;
+            const int sleepTime = 10;
+
+            Window window = new Window("capture");
+            Mat image = new Mat();
+            
+            while (true)
+            {
+                capture.Read(image); 
+                if (image.Empty())
+                    break;
+
+                window.ShowImage(image);
+                int c = Cv2.WaitKey(sleepTime);
+                if (c >= 0)
+                {
+                    break;
+                }
+            }
         }
 
     }
