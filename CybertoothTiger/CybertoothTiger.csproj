@@ -5,6 +5,7 @@
 		<TargetFramework>net6.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
+		<BaseOutputPath>C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTigerBuildFiles</BaseOutputPath>
 	</PropertyGroup>
 
 	<ItemGroup>
