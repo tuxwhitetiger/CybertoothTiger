@@ -7,34 +7,34 @@
 		<Nullable>enable</Nullable>
 		<BaseOutputPath>Debug</BaseOutputPath>
 		<Platforms>AnyCPU;ARM64;x64</Platforms>
-		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-	  <DebugType>full</DebugType>
+	  <DebugType>portable</DebugType>
 	  <Optimize>False</Optimize>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-	  <DebugType>full</DebugType>
+	  <DebugType>portable</DebugType>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
-	  <DebugType>full</DebugType>
+	  <DebugType>portable</DebugType>
 	  <Optimize>False</Optimize>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
-	  <DebugType>full</DebugType>
+	  <DebugType>portable</DebugType>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-	  <DebugType>full</DebugType>
+	  <DebugType>portable</DebugType>
 	  <Optimize>False</Optimize>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-	  <DebugType>full</DebugType>
+	  <DebugType>portable</DebugType>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -56,6 +56,18 @@
 
 	<ItemGroup>
 	  <Folder Include="bin\Debug\net6.0\runtimes\linux-arm\native\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="libOpenCvSharpExtern.so">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="OpenCvSharp.dll">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="OpenCvSharp.Extensions.dll">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
 	</ItemGroup>
 
 </Project>
