@@ -49,33 +49,9 @@
               "target": "Package",
               "version": "[4.6.0.20220608, )"
             },
-            "OpenCvSharp4.Extensions": {
-              "target": "Package",
-              "version": "[4.6.0.20220608, )"
-            },
-            "OpenCvSharp4.Windows": {
-              "target": "Package",
-              "version": "[4.6.0.20220608, )"
-            },
             "OpenCvSharp4.runtime.linux-arm": {
               "target": "Package",
               "version": "[4.6.0.20220608, )"
-            },
-            "OpenCvSharp4.runtime.linux-arm64.cuda": {
-              "target": "Package",
-              "version": "[4.5.2.20210803, )"
-            },
-            "OpenCvSharp4.runtime.ubuntu.18.04-x64": {
-              "target": "Package",
-              "version": "[4.6.0.20220608, )"
-            },
-            "OpenCvSharp4.runtime.win": {
-              "target": "Package",
-              "version": "[4.6.0.20220608, )"
-            },
-            "OpenCvSharp4.runtime.win.cuda": {
-              "target": "Package",
-              "version": "[4.5.0.20201013, )"
             }
           },
           "imports": [

@@ -2,37 +2,6 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Microsoft.NETCore.Platforms/5.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard1.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard1.0/_._": {}
-        }
-      },
-      "Microsoft.Win32.SystemEvents/5.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "5.0.0"
-        },
-        "compile": {
-          "ref/netstandard2.0/_._": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
-        }
-      },
       "OpenCvSharp4/4.6.0.20220608": {
         "type": "package",
         "dependencies": {
@@ -50,133 +19,12 @@
           }
         }
       },
-      "OpenCvSharp4.Extensions/4.6.0.20220608": {
-        "type": "package",
-        "dependencies": {
-          "OpenCvSharp4": "4.6.0.20220608",
-          "System.Drawing.Common": "5.0.3"
-        },
-        "compile": {
-          "lib/net6.0/OpenCvSharp.Extensions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/OpenCvSharp.Extensions.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "OpenCvSharp4.runtime.linux-arm/4.6.0.20220608": {
         "type": "package",
         "runtimeTargets": {
           "runtimes/linux-arm/native/libOpenCvSharpExtern.so": {
             "assetType": "native",
             "rid": "linux-arm"
-          }
-        }
-      },
-      "OpenCvSharp4.runtime.linux-arm64.cuda/4.5.2.20210803": {
-        "type": "package",
-        "runtimeTargets": {
-          "runtimes/linux-arm64/native/libOpenCvSharpExtern.so": {
-            "assetType": "native",
-            "rid": "linux-arm64"
-          }
-        }
-      },
-      "OpenCvSharp4.runtime.ubuntu.18.04-x64/4.6.0.20220608": {
-        "type": "package",
-        "runtimeTargets": {
-          "runtimes/ubuntu.18.04-x64/native/libOpenCvSharpExtern.so": {
-            "assetType": "native",
-            "rid": "ubuntu.18.04-x64"
-          }
-        }
-      },
-      "OpenCvSharp4.runtime.win/4.6.0.20220608": {
-        "type": "package",
-        "build": {
-          "build/net5.0/OpenCvSharp4.runtime.win.props": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win-x64/native/OpenCvSharpExtern.dll": {
-            "assetType": "native",
-            "rid": "win-x64"
-          },
-          "runtimes/win-x64/native/opencv_videoio_ffmpeg460_64.dll": {
-            "assetType": "native",
-            "rid": "win-x64"
-          },
-          "runtimes/win-x86/native/OpenCvSharpExtern.dll": {
-            "assetType": "native",
-            "rid": "win-x86"
-          },
-          "runtimes/win-x86/native/opencv_videoio_ffmpeg460.dll": {
-            "assetType": "native",
-            "rid": "win-x86"
-          }
-        }
-      },
-      "OpenCvSharp4.runtime.win.cuda/4.5.0.20201013": {
-        "type": "package",
-        "runtimeTargets": {
-          "runtimes/win-x64/native/OpenCvSharpExtern.dll": {
-            "assetType": "native",
-            "rid": "win-x64"
-          },
-          "runtimes/win-x64/native/OpenCvSharpExtern.pdb": {
-            "assetType": "native",
-            "rid": "win-x64"
-          },
-          "runtimes/win-x64/native/opencv_videoio_ffmpeg450_64.dll": {
-            "assetType": "native",
-            "rid": "win-x64"
-          },
-          "runtimes/win-x86/native/OpenCvSharpExtern.dll": {
-            "assetType": "native",
-            "rid": "win-x86"
-          },
-          "runtimes/win-x86/native/OpenCvSharpExtern.pdb": {
-            "assetType": "native",
-            "rid": "win-x86"
-          },
-          "runtimes/win-x86/native/opencv_videoio_ffmpeg450.dll": {
-            "assetType": "native",
-            "rid": "win-x86"
-          }
-        }
-      },
-      "OpenCvSharp4.Windows/4.6.0.20220608": {
-        "type": "package",
-        "dependencies": {
-          "OpenCvSharp4": "4.6.0.20220608",
-          "OpenCvSharp4.runtime.win": "4.6.0.20220608"
-        }
-      },
-      "System.Drawing.Common/5.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Win32.SystemEvents": "5.0.0"
-        },
-        "compile": {
-          "ref/netcoreapp3.0/System.Drawing.Common.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/System.Drawing.Common.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          },
-          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
-            "assetType": "runtime",
-            "rid": "win"
           }
         }
       },
@@ -208,52 +56,6 @@
     }
   },
   "libraries": {
-    "Microsoft.NETCore.Platforms/5.0.0": {
-      "sha512": "VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
-      "type": "package",
-      "path": "microsoft.netcore.platforms/5.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.5.0.0.nupkg.sha512",
-        "microsoft.netcore.platforms.nuspec",
-        "runtime.json",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "Microsoft.Win32.SystemEvents/5.0.0": {
-      "sha512": "Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
-      "type": "package",
-      "path": "microsoft.win32.systemevents/5.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/Microsoft.Win32.SystemEvents.dll",
-        "lib/net461/Microsoft.Win32.SystemEvents.xml",
-        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
-        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
-        "microsoft.win32.systemevents.5.0.0.nupkg.sha512",
-        "microsoft.win32.systemevents.nuspec",
-        "ref/net461/Microsoft.Win32.SystemEvents.dll",
-        "ref/net461/Microsoft.Win32.SystemEvents.xml",
-        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
-        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
-        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
-        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.xml",
-        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll",
-        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.xml",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "OpenCvSharp4/4.6.0.20220608": {
       "sha512": "+/EMZE0DodSRFHFniAMNRDYKr5cTBxUu0QABRcGT6duqopHZyeXX/siqbCorflkks2fpDHPB4Om/JoGzE3tHkA==",
       "type": "package",
@@ -275,27 +77,6 @@
         "opencvsharp4.nuspec"
       ]
     },
-    "OpenCvSharp4.Extensions/4.6.0.20220608": {
-      "sha512": "javgNfBBevwGRzDuAi1UQzqmRSMPCbv6CC2xML8BaE0utN+sUB+VapXmT1ANgy0554rTSrbcnfsjI6yB/87vaA==",
-      "type": "package",
-      "path": "opencvsharp4.extensions/4.6.0.20220608",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net48/OpenCvSharp.Extensions.dll",
-        "lib/net48/OpenCvSharp.Extensions.xml",
-        "lib/net6.0/OpenCvSharp.Extensions.dll",
-        "lib/net6.0/OpenCvSharp.Extensions.xml",
-        "lib/netcoreapp3.1/OpenCvSharp.Extensions.dll",
-        "lib/netcoreapp3.1/OpenCvSharp.Extensions.xml",
-        "lib/netstandard2.0/OpenCvSharp.Extensions.dll",
-        "lib/netstandard2.0/OpenCvSharp.Extensions.xml",
-        "lib/netstandard2.1/OpenCvSharp.Extensions.dll",
-        "lib/netstandard2.1/OpenCvSharp.Extensions.xml",
-        "opencvsharp4.extensions.4.6.0.20220608.nupkg.sha512",
-        "opencvsharp4.extensions.nuspec"
-      ]
-    },
     "OpenCvSharp4.runtime.linux-arm/4.6.0.20220608": {
       "sha512": "9dthA/sBu3weTk1xvuXejz66ewMq5ZZzl0RRF1duGQ6vh6z1NkYt1jC8sWSyFbtimB8nK8WAxibO9hv3pILmJA==",
       "type": "package",
@@ -306,123 +87,6 @@
         "opencvsharp4.runtime.linux-arm.4.6.0.20220608.nupkg.sha512",
         "opencvsharp4.runtime.linux-arm.nuspec",
         "runtimes/linux-arm/native/libOpenCvSharpExtern.so"
-      ]
-    },
-    "OpenCvSharp4.runtime.linux-arm64.cuda/4.5.2.20210803": {
-      "sha512": "rvHHdr8nHIk6gvR80UErqlAjvfj5hgyklbIXHEM1WsCWC5v227cIO1oehIM4ZONihYV0ERtdsBloC5Jz2xLU4A==",
-      "type": "package",
-      "path": "opencvsharp4.runtime.linux-arm64.cuda/4.5.2.20210803",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "nuget.exe",
-        "opencvsharp4.runtime.linux-arm64.cuda.4.5.2.20210803.nupkg.sha512",
-        "opencvsharp4.runtime.linux-arm64.cuda.nuspec",
-        "runtimes/linux-arm64/native/libOpenCvSharpExtern.so"
-      ]
-    },
-    "OpenCvSharp4.runtime.ubuntu.18.04-x64/4.6.0.20220608": {
-      "sha512": "peg3eKPtRRy/j1xAx/stvNrKSpi3E384gJyIWu8s1fNUO98ayJUqCN7OO39EUzD5dMccjdgoviI1QkHYiCLNUQ==",
-      "type": "package",
-      "path": "opencvsharp4.runtime.ubuntu.18.04-x64/4.6.0.20220608",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "opencvsharp4.runtime.ubuntu.18.04-x64.4.6.0.20220608.nupkg.sha512",
-        "opencvsharp4.runtime.ubuntu.18.04-x64.nuspec",
-        "runtimes/ubuntu.18.04-x64/native/libOpenCvSharpExtern.so"
-      ]
-    },
-    "OpenCvSharp4.runtime.win/4.6.0.20220608": {
-      "sha512": "8NaKBXUJQXDMpSM6qSBuzanYcwAkwgSFRaMuxDb8Gz9/MfWEraQ99WAxb0CydeOukPvczKLZkvnY1nBLU48BGg==",
-      "type": "package",
-      "path": "opencvsharp4.runtime.win/4.6.0.20220608",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/net48/OpenCvSharp4.runtime.win.props",
-        "build/net5.0/OpenCvSharp4.runtime.win.props",
-        "build/netcoreapp/OpenCvSharp4.runtime.win.props",
-        "build/netstandard/OpenCvSharp4.runtime.win.props",
-        "opencvsharp4.runtime.win.4.6.0.20220608.nupkg.sha512",
-        "opencvsharp4.runtime.win.nuspec",
-        "runtimes/win-x64/native/OpenCvSharpExtern.dll",
-        "runtimes/win-x64/native/opencv_videoio_ffmpeg460_64.dll",
-        "runtimes/win-x86/native/OpenCvSharpExtern.dll",
-        "runtimes/win-x86/native/opencv_videoio_ffmpeg460.dll"
-      ]
-    },
-    "OpenCvSharp4.runtime.win.cuda/4.5.0.20201013": {
-      "sha512": "Q2c1Lf/8GmQoJUPmI5/VOCP3ZUn7uGA/iUvir/y1oe1bvcQ4qU4w6B7ZjHYdgRkhDodfqo41dCKrCU9d5+PzTA==",
-      "type": "package",
-      "path": "opencvsharp4.runtime.win.cuda/4.5.0.20201013",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/net/OpenCvSharp4.runtime.win.props",
-        "build/netcoreapp/OpenCvSharp4.runtime.win.props",
-        "build/netstandard/OpenCvSharp4.runtime.win.props",
-        "opencvsharp4.runtime.win.cuda.4.5.0.20201013.nupkg.sha512",
-        "opencvsharp4.runtime.win.cuda.nuspec",
-        "runtimes/win-x64/native/OpenCvSharpExtern.dll",
-        "runtimes/win-x64/native/OpenCvSharpExtern.pdb",
-        "runtimes/win-x64/native/opencv_videoio_ffmpeg450_64.dll",
-        "runtimes/win-x86/native/OpenCvSharpExtern.dll",
-        "runtimes/win-x86/native/OpenCvSharpExtern.pdb",
-        "runtimes/win-x86/native/opencv_videoio_ffmpeg450.dll"
-      ]
-    },
-    "OpenCvSharp4.Windows/4.6.0.20220608": {
-      "sha512": "LijnaBT+Yx71Sx2hrD383SMIOLm6UyKqGcmhOZP1XPqmS2q3N9Wp3ZidOiGF3uKiOzLbecr0F7WDy6wQxFv81Q==",
-      "type": "package",
-      "path": "opencvsharp4.windows/4.6.0.20220608",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "opencvsharp4.windows.4.6.0.20220608.nupkg.sha512",
-        "opencvsharp4.windows.nuspec"
-      ]
-    },
-    "System.Drawing.Common/5.0.3": {
-      "sha512": "rEQZuslijqdsO0pkJn7LtGBaMc//YVA8de0meGihkg9oLPaN+w+/Pb5d71lgp0YjPoKgBKNMvdq0IPnoW4PEng==",
-      "type": "package",
-      "path": "system.drawing.common/5.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net461/System.Drawing.Common.dll",
-        "lib/netcoreapp3.0/System.Drawing.Common.dll",
-        "lib/netcoreapp3.0/System.Drawing.Common.xml",
-        "lib/netstandard2.0/System.Drawing.Common.dll",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net461/System.Drawing.Common.dll",
-        "ref/netcoreapp3.0/System.Drawing.Common.dll",
-        "ref/netcoreapp3.0/System.Drawing.Common.xml",
-        "ref/netstandard2.0/System.Drawing.Common.dll",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
-        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
-        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.xml",
-        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
-        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
-        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.xml",
-        "system.drawing.common.5.0.3.nupkg.sha512",
-        "system.drawing.common.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
       ]
     },
     "System.Memory/4.5.4": {
@@ -477,13 +141,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "OpenCvSharp4 >= 4.6.0.20220608",
-      "OpenCvSharp4.Extensions >= 4.6.0.20220608",
-      "OpenCvSharp4.Windows >= 4.6.0.20220608",
-      "OpenCvSharp4.runtime.linux-arm >= 4.6.0.20220608",
-      "OpenCvSharp4.runtime.linux-arm64.cuda >= 4.5.2.20210803",
-      "OpenCvSharp4.runtime.ubuntu.18.04-x64 >= 4.6.0.20220608",
-      "OpenCvSharp4.runtime.win >= 4.6.0.20220608",
-      "OpenCvSharp4.runtime.win.cuda >= 4.5.0.20201013"
+      "OpenCvSharp4.runtime.linux-arm >= 4.6.0.20220608"
     ]
   },
   "packageFolders": {
@@ -535,33 +193,9 @@
             "target": "Package",
             "version": "[4.6.0.20220608, )"
           },
-          "OpenCvSharp4.Extensions": {
-            "target": "Package",
-            "version": "[4.6.0.20220608, )"
-          },
-          "OpenCvSharp4.Windows": {
-            "target": "Package",
-            "version": "[4.6.0.20220608, )"
-          },
           "OpenCvSharp4.runtime.linux-arm": {
             "target": "Package",
             "version": "[4.6.0.20220608, )"
-          },
-          "OpenCvSharp4.runtime.linux-arm64.cuda": {
-            "target": "Package",
-            "version": "[4.5.2.20210803, )"
-          },
-          "OpenCvSharp4.runtime.ubuntu.18.04-x64": {
-            "target": "Package",
-            "version": "[4.6.0.20220608, )"
-          },
-          "OpenCvSharp4.runtime.win": {
-            "target": "Package",
-            "version": "[4.6.0.20220608, )"
-          },
-          "OpenCvSharp4.runtime.win.cuda": {
-            "target": "Package",
-            "version": "[4.5.0.20201013, )"
           }
         },
         "imports": [
