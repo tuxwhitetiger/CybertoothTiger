@@ -10,30 +10,30 @@
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-	  <DebugType>embedded</DebugType>
-	  <Optimize>True</Optimize>
+	  <DebugType>full</DebugType>
+	  <Optimize>False</Optimize>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-	  <DebugType>embedded</DebugType>
+	  <DebugType>full</DebugType>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
-	  <DebugType>embedded</DebugType>
-	  <Optimize>True</Optimize>
+	  <DebugType>full</DebugType>
+	  <Optimize>False</Optimize>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
-	  <DebugType>embedded</DebugType>
+	  <DebugType>full</DebugType>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-	  <DebugType>embedded</DebugType>
-	  <Optimize>True</Optimize>
+	  <DebugType>full</DebugType>
+	  <Optimize>False</Optimize>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-	  <DebugType>embedded</DebugType>
+	  <DebugType>full</DebugType>
 	</PropertyGroup>
 
 	<ItemGroup>

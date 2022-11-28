@@ -17,7 +17,7 @@ namespace CybertoothTiger
             capture.FrameWidth = 1920;
             capture.FrameHeight = 1280;
             capture.AutoFocus = true;
-            const int sleepTime = 10;
+            const int sleepTime = 1;
 
             Window window = new Window("capture");
             Mat image = new Mat();
