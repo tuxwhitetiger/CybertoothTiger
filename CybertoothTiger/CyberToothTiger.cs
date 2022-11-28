@@ -5,9 +5,15 @@ using OpenCvSharp;
 
 namespace CybertoothTiger
 {
-    public class CyberToothTiger
+   
+public class CyberToothTiger
     {
-        public void run() {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello world!");
+            run();
+        }
+        public static void run() {
 
             VideoCapture capture = new VideoCapture(0, VideoCaptureAPIs.DSHOW);
 
