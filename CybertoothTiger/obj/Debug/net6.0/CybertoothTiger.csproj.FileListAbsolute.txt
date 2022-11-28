@@ -1,0 +1,85 @@
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\obj\Debug\net6.0\CybertoothTiger.csproj.AssemblyReference.cache
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\obj\Debug\net6.0\CybertoothTiger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\obj\Debug\net6.0\CybertoothTiger.AssemblyInfoInputs.cache
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\obj\Debug\net6.0\CybertoothTiger.AssemblyInfo.cs
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\obj\Debug\net6.0\CybertoothTiger.csproj.CoreCompileInputs.cache
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\CybertoothTiger.exe
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\CybertoothTiger.deps.json
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\CybertoothTiger.runtimeconfig.json
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\CybertoothTiger.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\CybertoothTiger.pdb
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\OpenCvSharp.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\OpenCvSharp.Extensions.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\runtimes\linux-arm\native\libOpenCvSharpExtern.so
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\runtimes\linux-arm64\native\libOpenCvSharpExtern.so
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\runtimes\ubuntu.18.04-x64\native\libOpenCvSharpExtern.so
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\runtimes\win-x64\native\OpenCvSharpExtern.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\runtimes\win-x86\native\OpenCvSharpExtern.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\runtimes\win-x86\native\opencv_videoio_ffmpeg460.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\runtimes\win-x64\native\OpenCvSharpExtern.pdb
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\runtimes\win-x64\native\opencv_videoio_ffmpeg450_64.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\runtimes\win-x86\native\OpenCvSharpExtern.pdb
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\runtimes\win-x86\native\opencv_videoio_ffmpeg450.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\obj\Debug\net6.0\CybertoothTiger.csproj.CopyComplete
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\obj\Debug\net6.0\CybertoothTiger.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\obj\Debug\net6.0\refint\CybertoothTiger.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\obj\Debug\net6.0\CybertoothTiger.pdb
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\obj\Debug\net6.0\CybertoothTiger.genruntimeconfig.cache
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\obj\Debug\net6.0\ref\CybertoothTiger.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTigerBuildFiles\Debug\net6.0\CybertoothTiger.exe
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTigerBuildFiles\Debug\net6.0\CybertoothTiger.deps.json
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTigerBuildFiles\Debug\net6.0\CybertoothTiger.runtimeconfig.json
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTigerBuildFiles\Debug\net6.0\CybertoothTiger.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTigerBuildFiles\Debug\net6.0\CybertoothTiger.pdb
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\CybertoothTiger.exe
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\CybertoothTiger.deps.json
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\CybertoothTiger.runtimeconfig.json
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\CybertoothTiger.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\CybertoothTiger.pdb
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\OpenCvSharp.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\OpenCvSharp.Extensions.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\runtimes\linux-arm\native\libOpenCvSharpExtern.so
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\runtimes\linux-arm64\native\libOpenCvSharpExtern.so
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\runtimes\ubuntu.18.04-x64\native\libOpenCvSharpExtern.so
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\runtimes\win-x64\native\OpenCvSharpExtern.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\runtimes\win-x86\native\OpenCvSharpExtern.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\runtimes\win-x86\native\opencv_videoio_ffmpeg460.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\runtimes\win-x64\native\OpenCvSharpExtern.pdb
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\runtimes\win-x64\native\opencv_videoio_ffmpeg450_64.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\runtimes\win-x86\native\OpenCvSharpExtern.pdb
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\runtimes\win-x86\native\opencv_videoio_ffmpeg450.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug \Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug \Debug\net6.0\OpenCvSharp.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug \Debug\net6.0\OpenCvSharp.Extensions.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug \Debug\net6.0\System.Drawing.Common.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug \Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug \Debug\net6.0\runtimes\linux-arm\native\libOpenCvSharpExtern.so
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug \Debug\net6.0\runtimes\linux-arm64\native\libOpenCvSharpExtern.so
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug \Debug\net6.0\runtimes\ubuntu.18.04-x64\native\libOpenCvSharpExtern.so
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug \Debug\net6.0\runtimes\win-x64\native\OpenCvSharpExtern.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug \Debug\net6.0\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug \Debug\net6.0\runtimes\win-x86\native\OpenCvSharpExtern.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug \Debug\net6.0\runtimes\win-x86\native\opencv_videoio_ffmpeg460.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug \Debug\net6.0\runtimes\win-x64\native\OpenCvSharpExtern.pdb
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug \Debug\net6.0\runtimes\win-x64\native\opencv_videoio_ffmpeg450_64.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug \Debug\net6.0\runtimes\win-x86\native\OpenCvSharpExtern.pdb
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug \Debug\net6.0\runtimes\win-x86\native\opencv_videoio_ffmpeg450.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug \Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\CybertoothTiger\Debug \Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\Debug\Debug\net6.0\CybertoothTiger.exe
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\Debug\Debug\net6.0\CybertoothTiger.deps.json
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\Debug\Debug\net6.0\CybertoothTiger.runtimeconfig.json
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\Debug\Debug\net6.0\CybertoothTiger.dll
+C:\Users\TUX\source\repos\tuxwhitetiger\CybertoothTiger\Debug\Debug\net6.0\CybertoothTiger.pdb

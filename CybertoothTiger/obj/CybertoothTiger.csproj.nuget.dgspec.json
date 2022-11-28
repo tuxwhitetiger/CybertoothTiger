@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\TUX\\source\\repos\\tuxwhitetiger\\CybertoothTiger\\CybertoothTiger\\CybertoothTiger.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\TUX\\source\\repos\\tuxwhitetiger\\CybertoothTiger\\CybertoothTiger\\CybertoothTiger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\TUX\\source\\repos\\tuxwhitetiger\\CybertoothTiger\\CybertoothTiger\\CybertoothTiger.csproj",
+        "projectName": "CybertoothTiger",
+        "projectPath": "C:\\Users\\TUX\\source\\repos\\tuxwhitetiger\\CybertoothTiger\\CybertoothTiger\\CybertoothTiger.csproj",
+        "packagesPath": "C:\\Users\\TUX\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TUX\\source\\repos\\tuxwhitetiger\\CybertoothTiger\\CybertoothTiger\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TUX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "OpenCvSharp4": {
+              "target": "Package",
+              "version": "[4.6.0.20220608, )"
+            },
+            "OpenCvSharp4.Extensions": {
+              "target": "Package",
+              "version": "[4.6.0.20220608, )"
+            },
+            "OpenCvSharp4.Windows": {
+              "target": "Package",
+              "version": "[4.6.0.20220608, )"
+            },
+            "OpenCvSharp4.runtime.linux-arm": {
+              "target": "Package",
+              "version": "[4.6.0.20220608, )"
+            },
+            "OpenCvSharp4.runtime.linux-arm64.cuda": {
+              "target": "Package",
+              "version": "[4.5.2.20210803, )"
+            },
+            "OpenCvSharp4.runtime.ubuntu.18.04-x64": {
+              "target": "Package",
+              "version": "[4.6.0.20220608, )"
+            },
+            "OpenCvSharp4.runtime.win": {
+              "target": "Package",
+              "version": "[4.6.0.20220608, )"
+            },
+            "OpenCvSharp4.runtime.win.cuda": {
+              "target": "Package",
+              "version": "[4.5.0.20201013, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
