@@ -1,0 +1,9 @@
+﻿mkdir GIT
+git clone https://github.com/tuxwhitetiger/CybertoothTiger.git
+cd GIT
+git clone https://github.com/opencv/opencv.git
+cmake -DCMAKE_TOOLCHAIN_FILE=../platforms/linux/arm-gnueabi.toolchain.cmake ..
+make
+
+# crontab -e
+# @reboot  /home/user/startup.sh
