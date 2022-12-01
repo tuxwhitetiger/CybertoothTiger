@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
-using OpenCvSharp4.runtime.linux-arm;
+using OpenCvSharp;
 
 namespace CybertoothTiger
 {
