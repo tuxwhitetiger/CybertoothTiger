@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net5.0": {
       "OpenCvSharp4/4.6.0.20220608": {
         "type": "package",
         "dependencies": {
@@ -9,12 +9,12 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/OpenCvSharp.dll": {
+          "lib/netcoreapp3.1/OpenCvSharp.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/OpenCvSharp.dll": {
+          "lib/netcoreapp3.1/OpenCvSharp.dll": {
             "related": ".xml"
           }
         }
@@ -40,12 +40,12 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+          "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+          "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
         },
@@ -139,7 +139,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net5.0": [
       "OpenCvSharp4 >= 4.6.0.20220608",
       "OpenCvSharp4.runtime.linux-arm >= 4.6.0.20220608"
     ]
@@ -166,7 +166,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -174,8 +174,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -186,8 +186,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "OpenCvSharp4": {
             "target": "Package",
@@ -209,6 +209,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-arm64",
+            "version": "[5.0.17, 5.0.17]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
