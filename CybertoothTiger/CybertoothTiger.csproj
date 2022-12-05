@@ -44,30 +44,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="bin\Debug\net6.0\runtimes\linux-arm\native\" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <PackageReference Include="OpenCvSharp4" Version="4.6.0.20220608" />
 	  <PackageReference Include="OpenCvSharp4.runtime.linux-arm" Version="4.6.0.20220608" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <None Update="OpenCvSharp.dll">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="OpenCvSharp.Extensions.dll">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="OpenCvSharp.WpfExtensions.dll">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="OpenCvSharpExtern.dll">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="opencv_world460.dll">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
 	</ItemGroup>
 
 </Project>
